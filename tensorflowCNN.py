@@ -143,8 +143,8 @@ for epoch in range(EPOCHS):
     #Print relevant info
     print(
     f'Epoch {epoch + 1}, '
-    f'Loss: {train_loss.result():0.2f}, '
-    f'Accuracy: {train_accuracy.result() * 100:0.2f}, '
-    f'Test Loss: {test_loss.result():0.2f}, '
-    f'Test Accuracy: {test_accuracy.result() * 100:0.2f}'
+    f'Loss: {train_loss.result():0.2f}, ' #Training loss for the epoch
+    f'Accuracy: {train_accuracy.result() * 100:0.2f}, ' #Training accuracy for the epoch
+    f'Test Loss: {test_loss.result():0.2f}, ' #Testing loss for the epoch
+    f'Test Accuracy: {test_accuracy.result() * 100:0.2f}' #Testing accuracy for the epoch
     )
