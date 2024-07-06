@@ -90,8 +90,8 @@ for epoch in range(EPOCHS):
     #Print relevant information
     print(
         f'Epoch {epoch + 1}, '
-        f'Loss: {running_loss*10 / len(train_loader):0.2f}, '  # Average training loss for the epoch
-        f'Accuracy: {(correct / total) * 100:0.2f}, '       # Test accuracy for the epoch
-        f'Test Loss: {loss_func(outputs, labels):0.2f}, '   # Test loss for the epoch
-        f'Test Accuracy: {(correct / total) * 100:0.2f}'    # Test accuracy for the epoch
+        f'Loss: {running_loss*10 / len(train_loader):0.2f}, '  #Average training loss for the epoch
+        f'Accuracy: {(correct / total) * 100:0.2f}, '       #Test accuracy for the epoch
+        f'Test Loss: {loss_func(outputs, labels):0.2f}, '   #Test loss for the epoch
+        f'Test Accuracy: {(correct / total) * 100:0.2f}'    #Test accuracy for the epoch
     )
